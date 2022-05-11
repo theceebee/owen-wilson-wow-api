@@ -31,4 +31,3 @@ jobs:
           heroku_email: "caleb.bell@gmail.com"
           usedocker: true
           branch: "main"
-          remote-branch: "main"
