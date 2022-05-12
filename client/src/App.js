@@ -160,7 +160,7 @@ const App = () => {
                   playing={videoPlaying}
                   onClickPreview={() => changeVideoPlaying(true)}
                   onEnded={() => changeVideoPlaying(false)}
-                  url={exampleJSON.video["360p"]}
+                  url={exampleJSON.video["360p"].url}
                   controls={true}
                   light={exampleJSON.poster}
                   style={{ maxWidth: "600px", overflow: "hidden" }}
@@ -169,7 +169,7 @@ const App = () => {
             </div>
             <p>Rendered JSON response audio:</p>
             <ReactAudioPlayer
-              src={exampleJSON.audio}
+              src={exampleJSON.audio.url}
               controls
               style={{ width: "100%" }}
             />
