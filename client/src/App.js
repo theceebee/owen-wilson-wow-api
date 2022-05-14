@@ -63,7 +63,17 @@ const App = () => {
             </a>
           </b>{" "}
           is a free JSON API for actor Owen Wilson's "wow" exclamations in
-          movies.
+          movies. Note that this is a temporary fork (for a code test) of an
+          existing API which can be found at{" "}
+          <b>
+            <a
+              href="https://owen-wilson-wow-api.herokuapp.com"
+              rel="noreferrer noopener"
+            >
+              owen-wilson-wow-api.herokuapp.com
+            </a>
+          </b>{" "}
+          . All plaudits should go to the original author. I am not worthy.
           <br />
           <br />
           <a href="https://wow.readme.io" rel="noreferrer noopener">
@@ -288,14 +298,14 @@ const App = () => {
           <b>Contact:</b> If you have a correction or a suggestion for the API,
           feel free to open up an{" "}
           <a
-            href="https://github.com/amamenko/theceebee-wow/issues"
+            href="https://github.com/amamenko/owen-wilson-wow-api/issues"
             rel="noopener noreferrer"
           >
             issue
           </a>{" "}
           on its{" "}
           <a
-            href="https://github.com/amamenko/theceebee-wow"
+            href="https://github.com/amamenko/owen-wilson-wow-api"
             rel="noopener noreferrer"
           >
             GitHub repository
@@ -338,7 +348,7 @@ const App = () => {
       </div>
       <div className="bottom_icons">
         <a
-          href="https://github.com/amamenko/theceebee-wow"
+          href="https://github.com/amamenko/owen-wilson-wow-api"
           rel="noopener noreferrer"
         >
           <FaGithub color="#000" size="50" />
