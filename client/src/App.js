@@ -72,7 +72,7 @@ const App = () => {
             >
               owen-wilson-wow-api.herokuapp.com
             </a>
-          </b>{" "}
+          </b>
           . All plaudits should go to the original author. I am not worthy.
           <br />
           <br />
@@ -241,7 +241,7 @@ const App = () => {
       <h4>Sort multiple results</h4>
       <p>
         Sort multiple random results by either movie, release_date, year,
-        director, or number_current_wow. Sort direction can be either asc
+        director, number_current_wow, <b>size_kb or length</b>. Sort direction can be either asc
         (ascending) or desc (descending).
       </p>
       <pre>
