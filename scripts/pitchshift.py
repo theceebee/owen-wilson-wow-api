@@ -54,7 +54,10 @@ def pitch_shift_audio_url(url: AnyStr, steps: float=.0) -> None:
     logger.info('Downloading URL...')
 
     response = requests.get(url, stream=True)
-    assert response.status_code == 200, 'Invalid URL!'
+    assert response.status_code == 200, \
+        'Unsuccessful GET request! (status: {}, reason: \'{}\')'.format(
+            response.status_code,
+            response.reason)
 
     with NamedTemporaryFile(mode='w+b',
                             suffix=os.path.splitext(url)[-1],
