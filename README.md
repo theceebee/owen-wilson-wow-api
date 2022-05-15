@@ -43,12 +43,27 @@ Retrieve a random "wow" in JSON format - [https://theceebee-wow.herokuapp.com/wo
     "total_wows_in_movie": 3,
     "poster": "https://images.ctfassets.net/bs8ntwkklfua/1k95TZRiTlZtAOpLjysOnF/69881667de3e849853ee1d4a9d3ab92e/Marley___Me_Poster.jpg",
     "video": {
-      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/4nhhv7zq9vz1FpCchP4hOY/affe02a7b8d1b597c7ca60b45adaacc5/Marley___Me_Wow_1_1080p.mp4",
-      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/2ggG9a2f5bHhOCMTObD9kF/d7ffc47c4d3f148a24d0fd2c1a312c87/Marley___Me_Wow_1_720p.mp4",
-      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/1mX1xE5VgDpkQeTueSuZzX/41850f8b5b38aa76c3131c026fca387a/Marley___Me_Wow_1_480p.mp4",
-      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/2b6IvSW4MdXrBPheGa8faO/e9f893766d75c311c96d85ffbcd04faf/Marley___Me_Wow_1_360p.mp4"
+      "1080p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/4nhhv7zq9vz1FpCchP4hOY/affe02a7b8d1b597c7ca60b45adaacc5/Marley___Me_Wow_1_1080p.mp4",
+        "size_kb": 4178
+      },
+      "720p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/2ggG9a2f5bHhOCMTObD9kF/d7ffc47c4d3f148a24d0fd2c1a312c87/Marley___Me_Wow_1_720p.mp4",
+        "size_kb": 260
+      },
+      "480p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/1mX1xE5VgDpkQeTueSuZzX/41850f8b5b38aa76c3131c026fca387a/Marley___Me_Wow_1_480p.mp4",
+        "size_kb": 153
+      },
+      "360p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/2b6IvSW4MdXrBPheGa8faO/e9f893766d75c311c96d85ffbcd04faf/Marley___Me_Wow_1_360p.mp4",
+        "size_kb": 111
+      }
     },
-    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/5UNHWK6YJrKFAXboH8rqGe/b071fc733b9647ada4a8cad7550a2e1b/Marley___Me_Wow_1.mp3"
+    "audio": {
+      "url": "https://assets.ctfassets.net/bs8ntwkklfua/5UNHWK6YJrKFAXboH8rqGe/b071fc733b9647ada4a8cad7550a2e1b/Marley___Me_Wow_1.mp3",
+      "length": 1.752
+    }
   }
 ]
 ```
@@ -74,12 +89,27 @@ Retrieve a specific number of random "wow" results - [https://theceebee-wow.hero
     "total_wows_in_movie": 10,
     "poster": "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     "video": {
-      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/7G6jLS5xfYBOepUxkW7R3c/c78d22f63ba51f371a1550834888b9ca/Cars_3_Wow_4_1080p.mp4",
-      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/lIhPcmNS5L4DnpY41EpUA/96b0c5b44acf3fe16e68d1e67156d41c/Cars_3_Wow_4_720p.mp4",
-      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/1h3am3BfJYUm0VXV4uKF9P/e75775ec0621889efd40ce1bc372735a/Cars_3_Wow_4_480p.mp4",
-      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/6eO8c3ojQA4rWMlE1hMMOa/c3a9ce4c01b2d342b33144c9f90b9e3e/Cars_3_Wow_4_360p.mp4"
+      "1080p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/7G6jLS5xfYBOepUxkW7R3c/c78d22f63ba51f371a1550834888b9ca/Cars_3_Wow_4_1080p.mp4",
+        "size_kb": 3291
+      },
+      "720p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/lIhPcmNS5L4DnpY41EpUA/96b0c5b44acf3fe16e68d1e67156d41c/Cars_3_Wow_4_720p.mp4",
+        "size_kb": 409
+      },
+      "480p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/1h3am3BfJYUm0VXV4uKF9P/e75775ec0621889efd40ce1bc372735a/Cars_3_Wow_4_480p.mp4",
+        "size_kb": 245
+      },
+      "360p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/6eO8c3ojQA4rWMlE1hMMOa/c3a9ce4c01b2d342b33144c9f90b9e3e/Cars_3_Wow_4_360p.mp4",
+        "size_kb": 171
+      }
     },
-    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/6aJuGg3bTjqd20j59vP1Wv/6cb60311194d3a9aa040882911a5f516/Cars_3_Wow_4.mp3"
+    "audio": {
+      "url": "https://assets.ctfassets.net/bs8ntwkklfua/6aJuGg3bTjqd20j59vP1Wv/6cb60311194d3a9aa040882911a5f516/Cars_3_Wow_4.mp3",
+      "length": 1.32
+    }
   },
   {
     "movie": "The Big Year",
@@ -94,12 +124,27 @@ Retrieve a specific number of random "wow" results - [https://theceebee-wow.hero
     "total_wows_in_movie": 3,
     "poster": "https://images.ctfassets.net/bs8ntwkklfua/pCjGOhbTCQVjLRN9zTwIi/ce7cdf4b40f3549326d881697aa468a1/The_Big_Year_Poster.jpg",
     "video": {
-      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/2IZMW5Aeytz5rtu5MzcFk8/f675c3f6ef153c5df0c81679c80677d4/The_Big_Year_Wow_1_1080p.mp4",
-      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/2K0XjRiHYd8zbdYcmiTMH4/b2e4a9b02db184a4d4bd71fe15ab37a9/The_Big_Year_Wow_1_720p.mp4",
-      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/6QMkzBk6HrfuVxVT97mQg/5877904b163d7ccdc4baa92d449858d8/The_Big_Year_Wow_1_480p.mp4",
-      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/5SFeCoTmyTUEJYtK0kOO92/462afffbd6315182db59271f99a5a829/The_Big_Year_Wow_1_360p.mp4"
+      "1080p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/2IZMW5Aeytz5rtu5MzcFk8/f675c3f6ef153c5df0c81679c80677d4/The_Big_Year_Wow_1_1080p.mp4",
+        "size_kb": 3605
+      },
+      "720p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/2K0XjRiHYd8zbdYcmiTMH4/b2e4a9b02db184a4d4bd71fe15ab37a9/The_Big_Year_Wow_1_720p.mp4",
+        "size_kb": 337
+      },
+      "480p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/6QMkzBk6HrfuVxVT97mQg/5877904b163d7ccdc4baa92d449858d8/The_Big_Year_Wow_1_480p.mp4",
+        "size_kb": 195
+      },
+      "360p": {
+        "url": "https://videos.ctfassets.net/bs8ntwkklfua/5SFeCoTmyTUEJYtK0kOO92/462afffbd6315182db59271f99a5a829/The_Big_Year_Wow_1_360p.mp4",
+        "size_kb": 133
+      }
     },
-    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/45tt9xH4Uf3Rgt0EJtykZZ/b5cef0c5d09d368359f4a9c0e66a6663/The_Big_Year_Wow_1.mp3"
+    "audio": {
+      "url": "https://assets.ctfassets.net/bs8ntwkklfua/45tt9xH4Uf3Rgt0EJtykZZ/b5cef0c5d09d368359f4a9c0e66a6663/The_Big_Year_Wow_1.mp3",
+      "length": 1.488
+    }
   }
 ]
 ```
@@ -122,7 +167,7 @@ Retrieve a random "wow" by the number of its occurrence in a movie - [https://th
 
 ### Sort multiple results
 
-Sort multiple random results by either `movie`, `release_date`, `year`, d`irector`, or `number_current_wow`. Sort direction can be either `asc` (ascending) or `desc` (descending) - [https://theceebee-wow.herokuapp.com/wows/random?results=10&year=2017&sort=movie&direction=desc](https://theceebee-wow.herokuapp.com/wows/random?results=10&year=2017&sort=movie&direction=desc)
+Sort multiple random results by either `movie`, `release_date`, `year`, `sirector`, `number_current_wow`, `size_kb` or `length`. Sort direction can be either `asc` (ascending) or `desc` (descending) - [https://theceebee-wow.herokuapp.com/wows/random?results=10&year=2017&sort=movie&direction=desc](https://theceebee-wow.herokuapp.com/wows/random?results=10&year=2017&sort=movie&direction=desc)
 
 ## Ordered "Wow"
 
@@ -139,6 +184,28 @@ Retrieve all names of movies in which Owen Wilson says "wow" - https://theceebee
 ## All Directors
 
 Retrieve all directors of movies in which Owen Wilson says "wow" - [https://theceebee-wow.herokuapp.com/wows/directors](https://theceebee-wow.herokuapp.com/wows/directors)
+
+# Pitchshift CLI Tool
+
+Included in this repo is a Python script, which can be run from a CLI, which will playback an audio file (or URL) and is capable of shifting the pitch of the playback.
+
+It was developed in a Windows OS environment, using Python 3.9.1, and requires that [ffmpeg](https://ffmpeg.org/) be installed (for MP3 decoding).
+
+The script also has Python package dependencies, which have been declared in the `requirements.txt` file found at the root of this repository.
+
+## Quickstart (Windows)
+Assuming that you have a CLI open, and your current working directory is the root of the repository, setup is as follows:
+```
+> py -3 -m virtualenv venv         // Creates a virtual environment from your Python deployment.
+> venv/Scripts/activate.bat        // Activates the newly created, virtual environment.
+> pip install -f requirements.txt  // Installs the Python packages required, to the active virtual environment.
+```
+Once that's done, you're ready to go. Usage is as follows:
+```
+> python scripts/pitchshift.py --file /some/local/file.mp3 2         // Plays an MP3 file on the local drive, with pitch 2 levels higher.
+
+> python scripts/pitchshift.py --url https://foobar.com/file.mp3 -2  // Plays an MP3 at the provided URL, with pitch 2 levels lower.
+```
 
 <!-- LICENSE -->
 
